@@ -9,7 +9,7 @@ def char_count(s):
         if char not in count:
             # add it to the dictionary and give it a count of 0
             count[char] = 0
-        # Every time the character appers increment the count
+        # Every time the character appers increment the
         count[char] += 1
         
     return count
