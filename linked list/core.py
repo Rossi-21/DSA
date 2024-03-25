@@ -12,11 +12,11 @@ a.next = b
 b.next = c
 c.next = d
 
-# def print_list(head):
-#     current = head
-#     while current is not None:
-#         print(current.val)
-#         current = current.next
+def print_list(head):
+    current = head
+    while current is not None:
+        print(current.val)
+        current = current.next
         
 
 
