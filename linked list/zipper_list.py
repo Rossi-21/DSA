@@ -1,7 +1,7 @@
 def zipper_lists(head_1, head_2):
     counter = 0
     tail = head_1
-    cur1 = head_1.next
+    cur1 = head_1
     cur2 = head_2
     while cur1 is not None and cur2 is not None:
         if counter % 2 == 0:
@@ -10,8 +10,8 @@ def zipper_lists(head_1, head_2):
         else:
             tail.next = cur1
             cur1 = cur1.next
-            tail = tail.next
-            counter +=1
+    tail = tail.next
+    counter +=1
         
     if cur1 is not None:
         tail.next = cur1
