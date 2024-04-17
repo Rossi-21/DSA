@@ -38,7 +38,7 @@ def add_lists(head_1, head_2):
         tail = tail.next
         
         if current_1 is not None:
-        current_1 = current_1.next
+            current_1 = current_1.next
         if current_2 is not None:
-        current_2 = current_2.next
+            current_2 = current_2.next
     return dummy_head.next
